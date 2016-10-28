@@ -7,3 +7,9 @@ How is the staging area different from the working directory and the repository?
 The repository contains a lot of files, the staging area only contains the files we are going to bundle
 together in a commit.  It is useful because you might not want to commit
 every file in a repository together.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can check to see what changes you have made in the version you have staged in order to decide if you want to commit.
+You could conceivably also revert your changes after looking at what you have staged in order to make changes and commit separately if
+you decided you had too many changes made.
